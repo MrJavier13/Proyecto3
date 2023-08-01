@@ -91,4 +91,4 @@ exec SPEmpleado 1, 104586985, 'Enzo', 'Rojas', 'Campos', '1997-10-26', '2020-02-
 
 exec SPEmpleado 1, 114290929, 'Mery Ann', 'Castro', 'Mora', '1990-06-02', '2023-06-10', 'Femenino', 72076245, 'Miscelanea', 'No profesional', 'Servicios Generales', 3
 
-exec SPEmpleado 1, 602540865, 'Adrián', 'Rodriguez', 'Fonseca', '1996-10-21', '2021-05-15', 'Masculino', 75869874, 'Contador', 'Bachillerato Universitario', 'Administracion', 4
+exec SPEmpleado 1, 602540865, 'Adrián', 'Rodriguez', 'Fonseca', '1996-10-21', '2021-05-15', 'Masculino', 75869874, 'Contador', 'Bachillerato', 'Administracion', 4
