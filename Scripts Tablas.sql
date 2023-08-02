@@ -48,15 +48,15 @@ CONSTRAINT fk_Cedula FOREIGN KEY (cedula) REFERENCES Empleado (cedula)
 
 
 
-create table Incapacidades(
+CREATE TABLE Incapacidades(
 idIncapacidad int NOT NULL,
 fechaInicio date NOT NULL,
 fechaFinal date NOT NULL,
 tipoIncapacidad varchar(20) NOT NULL,
-diasDeIncapacidad int NOT NULL,
 cedula int NOT NULL,
 PRIMARY KEY (idIncapacidad),
-CONSTRAINT fk_Cedula2 FOREIGN KEY (cedula) REFERENCES Empleado (cedula)
+CONSTRAINT fk_Cedula2 FOREIGN KEY (cedula) REFERENCES Empleado (cedula),
+diasDeIncapacidad AS DATEDIFF(day, fechaInicio, fechaFinal),
 );
 
 
